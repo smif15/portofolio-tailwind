@@ -7,6 +7,18 @@
     --color-secondary: #164E63;
 }
 
+.animation-appear {
+    @apply opacity-100 translate-y-10
+}
+
+.animation-disappear {
+    @apply opacity-0 translate-y-0
+}
+
+.transitioning {
+    @apply transition-all duration-1000 ease-out
+}
+
 @theme {
     --animate-slide-in: slide-in 1.5s ease-in-out;
     
