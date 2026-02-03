@@ -7,3 +7,18 @@
     --color-secondary: #164E63;
 }
 
+@theme {
+    --animate-slide-in: slide-in 1.5s ease-in-out;
+    
+    @keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    }
+
+}
